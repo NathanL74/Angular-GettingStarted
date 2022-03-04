@@ -93,5 +93,9 @@ import { IProduct } from "./product";
     ngOnInit(): void {
       this.listFilter = '';
     }
+
+    onRatingClicked(message: string): void {
+      this.pageTitle = 'Product List: ' + message ; 
+    }
     
 }
