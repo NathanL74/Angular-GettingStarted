@@ -10,6 +10,7 @@ import { StarComponent } from './shared/star.component';
 import { ProductDetailsComponent } from './products/product-details.component';
 import { WelcomeComponent } from './home/welcome.component';
 import { RouterModule } from '@angular/router';
+import { ProductDetailGuard } from './products/product-detail.guard';
 
 @NgModule({
   declarations: [
@@ -25,11 +26,15 @@ import { RouterModule } from '@angular/router';
     FormsModule,
     HttpClientModule,
     RouterModule.forRoot([
-      {path: 'products', component: ProductListComponent},
-      {path: 'products/:id', component: ProductDetailsComponent},
-      {path: 'welcome', component: WelcomeComponent},
-      {path: '', redirectTo: 'welcome', pathMatch: 'full'},
-      {path: '**', redirectTo: 'welcome', pathMatch: 'full'}
+      { path: 'products', component: ProductListComponent},
+      { 
+        path: 'products/:id', 
+        canActivate: [ProductDetailGuard],
+        component: ProductDetailsComponent
+      },
+      { path: 'welcome', component: WelcomeComponent},
+      { path: '', redirectTo: 'welcome', pathMatch: 'full'},
+      { path: '**', redirectTo: 'welcome', pathMatch: 'full'}
     ])
   ],
   bootstrap: [AppComponent]
