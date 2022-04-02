@@ -1,0 +1,40 @@
+[
+    {
+      "birdId": 1,
+      "birdName": "Rouge-gorge familier",
+      "birdWeight": "16 - 22",
+      "birdSize": "12 - 14",
+      "birdWingspan": "20 - 22",
+      "birdClass": "Passereaux",
+      "birdSubClass": "Muscicapidae",
+      "birdHabitat": "Campagne ouverte et sous-bois",
+      "birdPrimaryColors": "",
+      "birdSecondaryColors": "",
+      "birdFood": "Insect, escargot, vers, araignée",
+      "birdLongevity": "",
+      "birdDesscription": "Le mâle et la femelle sont presque identiques, avec une couronne, des ailes, le dessus et la queue de couleur brune, une bande grise sur les côtés de la gorge, un ventre blanc et la fameuse « gorge rouge », plus précisément de couleur orange foncé tirant vers le rouge. Bien que sa face et sa poitrine soient plus orangées que rougeâtres, cet oiseau prend le nom familier de rouge-gorge au Moyen Âge.",
+      "birdMaleImage": "assets/images/rouge_gorge_male.jpg",
+      "birdFemaleImage": "assets/images/leaf_rake.png",
+      "birdJuvenileImage": "assets/images/leaf_rake.png",
+      "birdSing": "assets/images/leaf_rake.png"
+    },
+    {
+        "birdId": 2,
+        "birdName": "Mésange charbonnière",
+        "birdWeight": "14 - 22",
+        "birdSize": "12 - 15",
+        "birdWingspan": "23 - 26",
+        "birdClass": "Passereaux",
+        "birdSubClass": "Paridés",
+        "birdHabitat": "Campagne ouverte et sous-bois",
+        "birdPrimaryColors": "",
+        "birdSecondaryColors": "",
+        "birdFood": "Insect, graine, bourgeon",
+        "birdLongevity": "",
+        "birdDesscription": "La Mésange charbonnière (Parus major) est une espèce de passereaux de la famille des paridés. Cette mésange, la plus commune et la plus grande des mésanges eurasiatiques, est facilement identifiable grâce à sa calotte et à sa cravate noires et à son plumage où le jaune domine. Le dimorphisme sexuel est peu marqué.",
+        "birdMaleImage": "assets/images/mesange_charbonniere_male.jpg",
+        "birdFemaleImage": "assets/images/leaf_rake.png",
+        "birdJuvenileImage": "assets/images/leaf_rake.png",
+        "birdSing": "assets/images/leaf_rake.png"
+      }
+]
