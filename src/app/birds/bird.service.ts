@@ -8,7 +8,7 @@ import { IBird } from "./bird";
     providedIn: 'root'
 })
 export class BirdService {
-    private birdURL = 'api/products/birds.json';
+    private birdURL = 'api/birds/birds.json';
 
     constructor(private http: HttpClient){}
 
