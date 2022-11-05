@@ -9,7 +9,8 @@ import { BirdDetailGuard } from './bird-detail.guard';
 
 @NgModule({
   declarations: [
-    BirdListComponent
+    BirdListComponent,
+    BirdDetailsComponent
   ],
   imports: [
     RouterModule.forChild([

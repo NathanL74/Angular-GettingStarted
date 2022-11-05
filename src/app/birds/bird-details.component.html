@@ -3,39 +3,38 @@
         {{pageTitle + ' : ' + bird?.birdName}}    
     </div>
 
-    <div class='card-body'
-        *ngIf='bird'>
+    <div class='card-body' *ngIf='bird'>
         <div class='row'>
-            <div class='col-md-8'>
+            <div class='col-md-9'>
                 <div class='row'>
-                    <div class='col-md-4'>Name:</div>
+                    <div class='col-md-2' style="margin-bottom: 12px; text-decoration: underline;">Name</div>
                     <div class='col-md-8'>{{bird?.birdName}}</div>
                 </div>
                 <div class='row'>
-                    <div class='col-md-4'>Code:</div>
+                    <div class='col-md-2' style="margin-bottom: 12px; text-decoration: underline;">Code</div>
                     <div class='col-md-8'>{{bird?.birdName}}</div>
                 </div>
                 <div class='row'>
-                    <div class='col-md-4'>Description:</div>
+                    <div class='col-md-2' style="margin-bottom: 12px; text-decoration: underline;">Description</div>
                     <div class='col-md-8'>{{bird?.birdDesscription}}</div>
                 </div>
                 <div class='row'>
-                    <div class='col-md-4'>Class:</div>
+                    <div class='col-md-2' style="margin-bottom: 12px; text-decoration: underline;">Class</div>
                     <div class='col-md-8'>{{bird?.birdClass}}</div>
                 </div>
                 <div class='row'>
-                    <div class='col-md-4'>Wingspan:</div>
+                    <div class='col-md-2' style="margin-bottom: 12px; text-decoration: underline;">Wingspan</div>
                     <div class='col-md-8'>{{bird?.birdWingspan}}</div>
                 </div>
                 <div class='row'>
-                    <div class='col-md-4'>Habitat:</div>
+                    <div class='col-md-2' style="margin-bottom: 12px; text-decoration: underline;">Habitat:</div>
                     <div class='col-md-8'>{{bird?.birdHabitat}}</div>
                 </div>
             </div>
 
-            <div class='col-md-4'>
+            <div class='col-md-2' style="margin-bottom: 12px; text-decoration: underline;">
                 <img class='center-block img-responsive'
-                    [style.width.px]='200'
+                    [style.width.px]='290'
                     [style.margin.px]='2'
                     [src]='bird?.birdMaleImage'
                     [title]='bird?.birdName'>
